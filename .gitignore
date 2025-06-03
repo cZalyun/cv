@@ -1,0 +1,20 @@
+# Whitelist approach - ignore everything by default
+*
+
+# Keep these specific files
+!.gitignore
+!README.md
+!package.json
+!package-lock.json
+!tsconfig.json
+!angular.json
+!.editorconfig
+!.nvmrc
+!eslint.config.js
+!.husky/pre-commit
+
+# Keep source code recursively
+!src/
+!src/**/*
+!public/
+!public/**/*
