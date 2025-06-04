@@ -6,21 +6,16 @@ import { provideRouter } from "@angular/router";
 import type { CvComponent } from "./app/cv/cv.component";
 import { provideAnimations } from "@angular/platform-browser/animations";
 
-export enum PathList {
-  cV = "cv",
-}
 
 bootstrapApplication(AppComponent, {
   providers: [
     provideZonelessChangeDetection(),
     provideAnimations(),
     provideRouter([
-      { path: "", pathMatch: "full", redirectTo: PathList.cV },
       {
-        path: PathList.cV,
+        path: "**",
         loadComponent: async (): Promise<Type<CvComponent>> => (await import("./app/cv/cv.component")).CvComponent,
       },
-      { path: "**", redirectTo: PathList.cV },
     ]),
   ],
 }).catch((err: unknown) => {

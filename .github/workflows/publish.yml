@@ -1,4 +1,4 @@
-name: Deploy CV App to GitHub Pages
+name: Build
 
 on:
   push:

@@ -4,7 +4,7 @@
 
 ![Version](https://img.shields.io/badge/Angular-20.0.0-dd0031?logo=angular)
 ![License](https://img.shields.io/badge/License-MIT-blue)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+[![Build](https://github.com/cZalyun/cv/actions/workflows/publish.yml/badge.svg)](https://github.com/cZalyun/cv/actions/workflows/publish.yml)
 
 </div>
 
