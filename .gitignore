@@ -18,3 +18,10 @@
 !src/**/*
 !public/
 !public/**/*
+
+# CI/CD
+!nginx.conf
+!Dockerfile
+!CNAME
+!.github/
+!.github/**/*
