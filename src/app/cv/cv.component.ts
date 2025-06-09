@@ -52,6 +52,10 @@ import {
     ::ng-deep .ng2-pdf-viewer-container {
       overflow-x: visible !important;
     }
+
+    ::ng-deep .ng2-pdf-viewer-container *, :host {
+      cursor: url('/icons/cursor.png'), auto !important;
+    }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
